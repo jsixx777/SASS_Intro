@@ -13,6 +13,10 @@ header button {
   color: #413c3c;
 }
 
+header button:hover {
+  background-color: lightgreen;
+}
+
 .contact button {
   background-color: #b82424;
   color: #413c3c;
