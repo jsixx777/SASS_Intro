@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -14,5 +15,14 @@ body #bg {
   height: 100%;
   position: absolute;
   z-index: -1;
+}
+
+body header a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
