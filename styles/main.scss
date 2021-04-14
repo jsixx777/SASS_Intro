@@ -3,11 +3,11 @@ $colors: (primary: #005dff,
 
 $padding: 15px;
 
+$borders: 15px;
+
 @function color($color-name) {
     @return map-get($colors, $color-name)
-}
-
-;
+};
 
 
 
@@ -36,6 +36,20 @@ body {
         display: block;
         text-decoration: uppercase;
     }
+};
 
-    
+main {
+        section#card {
+            background: white;
+            padding: 20px;
+            margin: 1em auto;
+            border-radius: $borders;
+            box-shadow: 0 10px 30px rgba(0,0,0,.2);
+            width: 80%;
+
+            ul {
+                list-style-type: none;
+            }
+
+        }
 }
