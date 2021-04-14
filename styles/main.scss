@@ -77,4 +77,16 @@ main {
         }
 
     }
+
+    section#primary {
+        color: white;
+        padding: $padding;
+        text-align: center;
+
+        h2 {
+            font-size: 3em;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+    }
 }
