@@ -1,4 +1,5 @@
 $colors: (primary: #005dff,
+primary-light: lighten( #005dff),
     accent: #fff6bb);
 
 $padding: 15px;
@@ -49,6 +50,19 @@ main {
 
             ul {
                 list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin-bottom: 10px;
+
+                    span {
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-color: color(primary-light);
+                    }
+                }
             }
 
         }

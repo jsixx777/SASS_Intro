@@ -38,5 +38,17 @@ main section#card {
 
 main section#card ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main section#card ul li {
+  margin-bottom: 10px;
+}
+
+main section#card ul li span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
 }
 /*# sourceMappingURL=main.css.map */
