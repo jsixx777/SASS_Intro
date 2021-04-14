@@ -22,8 +22,7 @@ body header a {
   text-decoration: none;
   padding: 15px;
   display: block;
-  -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 main section#card {
