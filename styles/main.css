@@ -50,5 +50,14 @@ main section#card ul li span {
   position: absolute;
   width: 30px;
   height: 30px;
+  background-color: #ccdfff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main section#card ul li strong {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */
